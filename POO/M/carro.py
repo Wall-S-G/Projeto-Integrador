@@ -11,13 +11,23 @@ class Carro:
 
     # "marca", "modelo", "ano", e "velocidade".
 
-    def__init__(self, marca, modelo, ano, velocidade=0):
+    def __init__(self, marca, modelo, nome, ano, velocidade=0):
         self.marca = marca
         self.modelo = modelo
+        self.nome = nome
         self.ano = ano
         self.velocidade = velocidade
 
-    carro1 = Carro("Ford", "Mustang", 1969)
-    
-    # Exibir informações do carro
-    print(f"marca: {self.marca}")
+    def acelerar(self, aumento):
+        self.velocidade += self.velocidade + aumento
+
+Fastback = Carro("Ford", "Mustang", "Fastback", 1969, velocidade=0)
+# Exibir informações do carro
+print(f"marca: {Fastback.marca}     |modelo: {Fastback.modelo}   |ano: {Fastback.ano}     |nome: {Fastback.nome}")
+Fastback.acelerar(50)
+print(f"{Fastback.nome} acelera! Velocidade atual={Fastback.velocidade}km/h.\n")
+
+e30 = Carro("BMW", "m3", "e30", 1980, velocidade=0)
+print(f"marca: {e30.marca}      |modelo: {e30.modelo}        |ano: {e30.ano}     |nome: {e30.nome}")
+e30.acelerar(150)
+print(f"{e30.nome} acelera! Velocidade atual={Fastback.velocidade}km/h.\n")
