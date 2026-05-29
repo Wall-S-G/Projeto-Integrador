@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 DROP TABLE IF EXISTS notas;
 DROP TABLE IF EXISTS cursos_disciplinas;
 DROP TABLE IF EXISTS turmas;
@@ -9,20 +8,12 @@ DROP TABLE IF EXISTS cursos;
 	
 -- Criação do Bando de Dados
 CREATE DATABASE IF NOT EXISTS escola;
-=======
--- Criação do Bando de Dados
-CREATE DATABASE escola;
->>>>>>> 084c5280102a2fbdd64dddf85947d531dffcec7e
 -- selecionar o BD para uso
 USE escola;
 
 -- Criar tabela aluno
 -- Armasena os dados dos estudantes
-<<<<<<< HEAD
 CREATE TABLE alunos(
-=======
-CREATE TABLE aluno (
->>>>>>> 084c5280102a2fbdd64dddf85947d531dffcec7e
 	-- Indentificador único (chave primária)
 	id_aluno INT auto_increment primary key,
     
