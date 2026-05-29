@@ -1,0 +1,41 @@
+/* CORES */
+
+/* 
+Formatos de cor:
+
+color: red; [tipo nome (em inglês)]
+
+color: #fff; [tipo hexadecimal (A - F e 0 - 9)]
+
+color: rgb(255, 0, 0); [Tipo RGB]
+
+color: rgb(255, 0, 0, 0.5); [Tipo RGB transparente]
+color: hsl(0, 100%, 50%); [Tipo HSL: matriz, saturação e luminosidade
+*/
+*{text-align: center;}
+
+.name{color: cyan;}
+
+.hexadecimal{color: #FA8072}
+
+.rgb{color: rgb(233, 140, 48);}
+
+.rgba-transparente{color: rgb(233, 140, 48, 0.3);}
+
+.hsl{color: hsl(0, 100%, 50%);}
+
+/*
+Cores de fundo 
+
+bacground-color: tal cor;
+
+background: linear-gradient(to right, darkslateblue, purple); [linear-gradiente: cria degradês horizontais, verticais ou dagonais]
+
+background-color: rgba(0, 0, 0, 0.3); [Cor de fundo com transparencia]
+
+*/
+#cor-de-fundo{
+    /* background-color: darkslateblue; */
+    background: linear-gradient(to right, darkslateblue, purple);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}

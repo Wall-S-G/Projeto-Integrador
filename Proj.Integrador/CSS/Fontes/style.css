@@ -1,0 +1,49 @@
+/* FONTES DE TIPOGRAFIA */
+
+/* 
+Propriedades Básicas:
+
+font-family: Define a familia da fonte;
+fonyt-size: Define o tamanho da fonte (px, e, rem, %);
+color: Atribui uma cor ao texto;
+line-height: Altura da linha (Espaço entre linhas)
+font-weight: Espessura do texto (normal, bold, semibold, 300, 500, 700);
+text-align: Alinhamento (left, center, right, justify)
+*/
+h1{color: blueviolet; text-shadow: 9px 2px 1px purple;}
+
+body{
+    background: linear-gradient(to right, darkslateblue, purple);
+    font-family: 'Pixelify Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: cyan; line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 9px 2px 5px cyan;
+}
+/*
+Importando fontes do Google Font no navegador
+
+TUTORIAL:
+
+1- Abrir Google Fonts no navegador
+2- Escolher a fonte
+3- Obter o código de importação
+4- Adicionar link ao HTML
+5- Aplicar font-family no CSS
+*/
+
+
+/*
+Decoração e Transformação
+
+text-transform: Vai alterar o texto para Maiúsculo (uppercare) ou Minisculo (lowercase)
+letter-spacing: Espaçamento horizontal entre as letras;
+text-shadow: Aplica uma sombra ao texto;
+*/
+.sub-title{
+    color: darkcyan;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 9px 9px 1x darkcyan;
+}
