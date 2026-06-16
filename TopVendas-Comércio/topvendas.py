@@ -42,9 +42,12 @@ class Compra:
     
     def show_info(self):
         print("== Informações da Compra ==")
+        print(f"Produto: {self.produto.nome}")
         print(f"Valor: {self.valor}")
         print(f"Quantidade: {self.qtde}")
-        print(f"Produto: {self.produto.nome}")
+        print(f"Lote do Produto: {self.produto.lote}")
+        print(f"Fornecedor do Produto: {self.produto.fornecedor.nome}")
+        print(f"Contato do Fornecedor: {self.produto.fornecedor.contato}")
         print(f"Cliente: {self.cliente.nome}")
 
 # =================================================================================
